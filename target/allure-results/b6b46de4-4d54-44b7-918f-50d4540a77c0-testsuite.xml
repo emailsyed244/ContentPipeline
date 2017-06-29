@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1498726661748" stop="1498726661786" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a Content Pipeline user, I want to verify the table counts of Staging DB with CFDB,</name>
+    <description type="text">        so I can use them with confidence</description>
+    <test-cases>
+        <test-case start="1498726661763" stop="1498726661785" status="passed">
+            <name>Check the Counts for Company, ConfReport and Corp Public in Count_Test_Suite01,Count_Test_Suite02 test suites</name>
+            <title>Check the Counts for Company, ConfReport and Corp Public in Count_Test_Suite01,Count_Test_Suite02 test suites</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1498726661770" stop="1498726661775" status="passed">
+                    <name>Given batch file "" has been setup for testing data</name>
+                    <title>Given batch file "" has been setup for testing data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1498726661777" stop="1498726661779" status="passed">
+                    <name>When the batch files runs in the environment</name>
+                    <title>When the batch files runs in the environment</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1498726661780" stop="1498726661782" status="passed">
+                    <name>Then it should be successful</name>
+                    <title>Then it should be successful</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Check the Counts for Company, ConfReport and Corp Public in Count_Test_Suite01,Count_Test_Suite02 test suites"/>
+                <label name="feature" value="As a Content Pipeline user, I want to verify the table counts of Staging DB with CFDB,"/>
+                <label name="host" value="UC181137-TPL-A"/>
+                <label name="thread" value="16428@UC181137-TPL-A.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a Content Pipeline user, I want to verify the table counts of Staging DB with CFDB,"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

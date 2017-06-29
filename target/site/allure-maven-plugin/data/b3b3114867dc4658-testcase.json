@@ -1,0 +1,125 @@
+{
+  "uid" : "b3b3114867dc4658",
+  "name" : "Check sum",
+  "title" : "Check sum",
+  "time" : {
+    "start" : 1498726660873,
+    "stop" : 1498726661370,
+    "duration" : 497
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "BLOCKER",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "ec2afc40b5f1f16a",
+    "name" : "Test allure report with key words \"Scenario\" and \"Background\"",
+    "title" : "Test allure report with key words \"Scenario\" and \"Background\""
+  },
+  "steps" : [ {
+    "name" : "Given I set variable A as \"100\"",
+    "title" : "Given I set variable A as \"100\"",
+    "time" : {
+      "start" : 1498726660903,
+      "stop" : 1498726661341,
+      "duration" : 438
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I set variable B as \"23\"",
+    "title" : "And I set variable B as \"23\"",
+    "time" : {
+      "start" : 1498726661342,
+      "stop" : 1498726661344,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I perform A plus B",
+    "title" : "When I perform A plus B",
+    "time" : {
+      "start" : 1498726661352,
+      "stop" : 1498726661354,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then result value should be \"123\"",
+    "title" : "Then result value should be \"123\"",
+    "time" : {
+      "start" : 1498726661355,
+      "stop" : 1498726661366,
+      "duration" : 11
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ {
+    "name" : "example-99",
+    "url" : "example-99"
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "16428@UC181137-TPL-A.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Test allure report with key words \"Scenario\" and \"Background\""
+  }, {
+    "name" : "suite-name",
+    "value" : "Test allure report with key words \"Scenario\" and \"Background\""
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "UC181137-TPL-A"
+  }, {
+    "name" : "testId",
+    "value" : "example-99"
+  }, {
+    "name" : "story",
+    "value" : "Check sum"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

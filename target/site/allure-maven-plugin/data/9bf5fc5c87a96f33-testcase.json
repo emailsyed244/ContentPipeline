@@ -1,0 +1,101 @@
+{
+  "uid" : "9bf5fc5c87a96f33",
+  "name" : "Check the Counts for Company, ConfReport and Corp Public in Count_Test_Suite01,Count_Test_Suite02 test suites",
+  "title" : "Check the Counts for Company, ConfReport and Corp Public in Count_Test_Suite01,Count_Test_Suite02 test suites",
+  "time" : {
+    "start" : 1498726661763,
+    "stop" : 1498726661785,
+    "duration" : 22
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "        so I can use them with confidence\r\n",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "b494e5c0b68d7709",
+    "name" : "As a Content Pipeline user, I want to verify the table counts of Staging DB with CFDB,",
+    "title" : "As a content pipeline user, I want to verify the table counts of staging DB with CFDB,"
+  },
+  "steps" : [ {
+    "name" : "Given batch file \"\" has been setup for testing data",
+    "title" : "Given batch file \"\" has been setup for testing data",
+    "time" : {
+      "start" : 1498726661770,
+      "stop" : 1498726661775,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When the batch files runs in the environment",
+    "title" : "When the batch files runs in the environment",
+    "time" : {
+      "start" : 1498726661777,
+      "stop" : 1498726661779,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then it should be successful",
+    "title" : "Then it should be successful",
+    "time" : {
+      "start" : 1498726661780,
+      "stop" : 1498726661782,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "16428@UC181137-TPL-A.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "UC181137-TPL-A"
+  }, {
+    "name" : "suite-name",
+    "value" : "As a Content Pipeline user, I want to verify the table counts of Staging DB with CFDB,"
+  }, {
+    "name" : "story",
+    "value" : "Check the Counts for Company, ConfReport and Corp Public in Count_Test_Suite01,Count_Test_Suite02 test suites"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "feature",
+    "value" : "As a Content Pipeline user, I want to verify the table counts of Staging DB with CFDB,"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

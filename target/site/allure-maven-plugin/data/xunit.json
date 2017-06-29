@@ -1,0 +1,68 @@
+{
+  "time" : {
+    "start" : 1498726660873,
+    "stop" : 1498726661785,
+    "duration" : 912
+  },
+  "testSuites" : [ {
+    "uid" : "b494e5c0b68d7709",
+    "name" : "As a Content Pipeline user, I want to verify the table counts of Staging DB with CFDB,",
+    "title" : "As a content pipeline user, I want to verify the table counts of staging DB with CFDB,",
+    "time" : {
+      "start" : 1498726661763,
+      "stop" : 1498726661785,
+      "duration" : 22
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "9bf5fc5c87a96f33",
+      "name" : "Check the Counts for Company, ConfReport and Corp Public in Count_Test_Suite01,Count_Test_Suite02 test suites",
+      "title" : "Check the Counts for Company, ConfReport and Corp Public in Count_Test_Suite01,Count_Test_Suite02 test suites",
+      "time" : {
+        "start" : 1498726661763,
+        "stop" : 1498726661785,
+        "duration" : 22
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "ec2afc40b5f1f16a",
+    "name" : "Test allure report with key words \"Scenario\" and \"Background\"",
+    "title" : "Test allure report with key words \"Scenario\" and \"Background\"",
+    "time" : {
+      "start" : 1498726660873,
+      "stop" : 1498726661370,
+      "duration" : 497
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "b3b3114867dc4658",
+      "name" : "Check sum",
+      "title" : "Check sum",
+      "time" : {
+        "start" : 1498726660873,
+        "stop" : 1498726661370,
+        "duration" : 497
+      },
+      "severity" : "BLOCKER",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

@@ -1,0 +1,213 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 427828743,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I set variable A as \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 21
+                }
+              ],
+              "location": "CommonSteps.iSetVariableAAs(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147770,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I set variable B as \"23\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "23",
+                  "offset": 21
+                }
+              ],
+              "location": "CommonSteps.iSetVariableBAs(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15537150,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.createTestId()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Check sum",
+        "description": "",
+        "id": "test-allure-report-with-key-words-\"scenario\"-and-\"background\";check-sum",
+        "after": [
+          {
+            "result": {
+              "duration": 45437,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 62427,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I perform A plus B",
+            "match": {
+              "location": "CommonSteps.iPerformAPlusB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9892270,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "result value should be \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 24
+                }
+              ],
+              "location": "CommonSteps.summaShouldBe(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@SeverityLevel.BLOCKER"
+          },
+          {
+            "line": 6,
+            "name": "@TestCaseId(\"example-99\")"
+          }
+        ]
+      }
+    ],
+    "name": "Test allure report with key words \"Scenario\" and \"Background\"",
+    "description": "",
+    "id": "test-allure-report-with-key-words-\"scenario\"-and-\"background\"",
+    "keyword": "Feature",
+    "uri": "features/scenario_background_tests.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1248140,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.createTestId()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Check the Counts for Company, ConfReport and Corp Public in Count_Test_Suite01,Count_Test_Suite02 test suites",
+        "description": "",
+        "id": "as-a-content-pipeline-user,-i-want-to-verify-the-table-counts-of-staging-db-with-cfdb,;check-the-counts-for-company,-confreport-and-corp-public-in-count-test-suite01,count-test-suite02-test-suites",
+        "after": [
+          {
+            "result": {
+              "duration": 135522,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4295988,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "batch file \"\" has been setup for testing data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 12
+                }
+              ],
+              "location": "CommonSteps.batch_file_has_been_setup_for_testing_data(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 184910,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the batch files runs in the environment",
+            "match": {
+              "location": "CommonSteps.the_batch_files_runs_in_the_environment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 357175,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it should be successful",
+            "match": {
+              "location": "CommonSteps.it_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a Content Pipeline user, I want to verify the table counts of Staging DB with CFDB,",
+    "description": "        so I can use them with confidence",
+    "id": "as-a-content-pipeline-user,-i-want-to-verify-the-table-counts-of-staging-db-with-cfdb,",
+    "keyword": "Feature",
+    "uri": "features/test.feature"
+  }
+]

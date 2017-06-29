@@ -1,0 +1,71 @@
+{
+  "features" : [ {
+    "title" : "As a Content Pipeline user, I want to verify the table counts of Staging DB with CFDB,",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "b0363a2df6453755",
+      "title" : "Check the Counts for Company, ConfReport and Corp Public in Count_Test_Suite01,Count_Test_Suite02 test suites",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "9bf5fc5c87a96f33",
+        "name" : "Check the Counts for Company, ConfReport and Corp Public in Count_Test_Suite01,Count_Test_Suite02 test suites",
+        "title" : "Check the Counts for Company, ConfReport and Corp Public in Count_Test_Suite01,Count_Test_Suite02 test suites",
+        "time" : {
+          "start" : 1498726661763,
+          "stop" : 1498726661785,
+          "duration" : 22
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test allure report with key words \"Scenario\" and \"Background\"",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "f4ad805278d1caa7",
+      "title" : "Check sum",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "b3b3114867dc4658",
+        "name" : "Check sum",
+        "title" : "Check sum",
+        "time" : {
+          "start" : 1498726660873,
+          "stop" : 1498726661370,
+          "duration" : 497
+        },
+        "severity" : "BLOCKER",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

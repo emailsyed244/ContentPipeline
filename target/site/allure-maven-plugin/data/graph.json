@@ -1,0 +1,25 @@
+{
+  "testCases" : [ {
+    "uid" : "9bf5fc5c87a96f33",
+    "name" : "Check the Counts for Company, ConfReport and Corp Public in Count_Test_Suite01,Count_Test_Suite02 test suites",
+    "title" : "Check the Counts for Company, ConfReport and Corp Public in Count_Test_Suite01,Count_Test_Suite02 test suites",
+    "time" : {
+      "start" : 1498726661763,
+      "stop" : 1498726661785,
+      "duration" : 22
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b3b3114867dc4658",
+    "name" : "Check sum",
+    "title" : "Check sum",
+    "time" : {
+      "start" : 1498726660873,
+      "stop" : 1498726661370,
+      "duration" : 497
+    },
+    "severity" : "BLOCKER",
+    "status" : "PASSED"
+  } ]
+}

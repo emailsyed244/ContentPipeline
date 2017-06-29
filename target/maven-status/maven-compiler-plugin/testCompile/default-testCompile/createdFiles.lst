@@ -1,0 +1,4 @@
+com\clarivate\cp\hooks\Hooks.class
+RunCucumberIT.class
+com\clarivate\cp\steddefs\CommonSteps.class
+com\clarivate\cp\BaseStepDefinitions.class
